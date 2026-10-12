@@ -1,0 +1,8 @@
+Zdjęcia: Unsplash (licencja Unsplash, darmowe użycie)
+
+hero-jasny.jpg   Kari Shea          https://unsplash.com/photos/pJn9WhMqFIs
+hero-ciemny.jpg  Łukasz Rawa        https://unsplash.com/photos/fmc-tFMMiBs
+historia.jpg     Petr Sevcovic      https://unsplash.com/photos/qE1jxYXiwOA
+palenie.jpg      Yanapi Senaud      https://unsplash.com/photos/6HR8vpjYUHo
+parzenie.jpg     Najib Kalil        https://unsplash.com/photos/x-8DF-Ry0Zo
+menu.jpg         Armin Lotfi        https://unsplash.com/photos/gURxlcD9I0U
