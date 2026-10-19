@@ -1,3 +1,33 @@
 body {
-  background-color: #f3fff3;
+  font-family: sans-serif;
+  background-color: #dddddd;
+}
+
+main {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff7b0;
+  box-shadow: 5px 5px 0 #333333;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  gap: 10px;
+  padding: 8px 0;
+  border-bottom: 1px dashed #333333;
+}
+
+li span,
+li input[type="text"] {
+  flex: 1;
+}
+
+mark {
+  background-color: #ff9f43;
 }
