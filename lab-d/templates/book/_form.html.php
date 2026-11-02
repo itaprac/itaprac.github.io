@@ -1,0 +1,32 @@
+<?php
+    /** @var $book ?\App\Model\Book */
+    /** @var $errors string[] */
+?>
+
+<?php if (! empty($errors)): ?>
+    <ul class="errors">
+        <?php foreach ($errors as $error): ?>
+            <li><?= $error ?></li>
+        <?php endforeach; ?>
+    </ul>
+<?php endif; ?>
+
+<div class="form-group">
+    <label for="title">Title</label>
+    <input type="text" id="title" name="book[title]" value="<?= $book ? $book->getTitle() : '' ?>">
+</div>
+
+<div class="form-group">
+    <label for="author">Author</label>
+    <input type="text" id="author" name="book[author]" value="<?= $book ? $book->getAuthor() : '' ?>">
+</div>
+
+<div class="form-group">
+    <label for="year">Year</label>
+    <input type="text" id="year" name="book[year]" value="<?= $book ? $book->getYear() : '' ?>">
+</div>
+
+<div class="form-group">
+    <label></label>
+    <input type="submit" value="Submit">
+</div>
